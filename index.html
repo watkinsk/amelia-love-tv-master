@@ -1,0 +1,160 @@
+---
+layout: default
+title: IOC Starter Theme
+meta-description: This is a starter blog template to fastrack your projects.
+featured-image_path: /uploads/pr-photos-6472.jpg
+icon-list:
+  - icon-code: far fa-snowflake
+    heading: Heading
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - icon-code: far fa-snowflake
+    heading: Heading
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - icon-code: far fa-snowflake
+    heading: Heading
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - icon-code: far fa-snowflake
+    heading: Heading
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - icon-code: far fa-snowflake
+    heading: Heading
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - icon-code: far fa-snowflake
+    heading: Heading
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+cards:
+  - heading: Apple
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    featured_image: /images/placeholder.png
+  - heading: Banana
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    featured_image: /images/placeholder.png
+  - heading: Pear
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    featured_image: /images/placeholder.png
+---
+
+<!-- FIRST BANNER SECTION ---->
+<section id="intro-banner" class=" overlay banner bg-featured center grid-middle">
+  <div class="col">
+    <h1> Run your own <br class="mob-hide"> yoga retreat </h1>
+  </div>
+</section>
+
+<!-- CTA WITH BUTTON SECTION ---->
+<section class="bg-featured center">
+  <h3> Register Now - 20% Off </h3>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum dapibus felis, sed convallis turpis aliquam nec. </p>
+  <a class="button-inverted" href="#register"> REGISTER </a>
+</section>
+
+<!--  ICON GRID SECTION ---->
+<section class="center">
+  <h2> A SEAMLESS EXPERIENCE </h2>
+  <div class="icon grid">
+
+    <!-- you can find the icon codes at font awesome (sort for free ones) -->
+
+    {% for item in page.icon-list %}
+    <div class="col-4_sm-12">
+      <i class="{{item.icon-code}}"></i>
+      <h3> {{item.heading}} </h3>
+      <p> {{item.description}} </p>
+    </div>
+    {% endfor %}
+
+  </div> <!-- end of grid -->
+</section>
+
+<!-- CTA WITH SIGNUP SECTION ---->
+<section class="bg-light center grid">
+  <div class="col-12">
+    <h3> Another Call to Action </h3>
+    <p> This one could be connected to your email newsletter, like mailchimp or mailerlite or just a standard email form.  </p>
+    <form class="email-signup" action="https://formspree.io/your@email.com"
+        method="POST">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="_replyto" placeholder="Your Email">
+        <input type="submit" value="Send" class="button">
+    </form>
+</section>
+
+<!-- BIG IMAGE + TEXT GRID SECTION ---->
+<section class="no-padding">
+<div class="grid bg-dark med-height">
+  <div class="col-6_sm-12 bg-img">
+    <!-- ADD BACKGROUND IMAGE style="background-image:url('_____')" -->
+  </div>
+  <div class="col-6_sm-12-middle">
+    <h2> Heading </h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum dapibus felis, sed convallis turpis aliquam nec. </p>
+  </div>
+</div> <!-- end grid -->
+
+<div class="grid mob-flip med-height">
+  <div class="col-6_sm-12-middle">
+    <h2> Heading </h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum dapibus felis, sed convallis turpis aliquam nec. </p>
+  </div>
+  <div class="col-6_sm-12 bg-img">
+    <!-- ADD BACKGROUND IMAGE style="background-image:url('_____')" -->
+  </div>
+</div> <!-- end grid -->
+
+<div class="grid bg-dark med-height">
+  <div class="col-6_sm-12 bg-img">
+    <!-- ADD BACKGROUND IMAGE style="background-image:url('_____')" -->
+  </div>
+  <div class="col-6_sm-12-middle">
+    <h2> Heading </h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum dapibus felis, sed convallis turpis aliquam nec. </p>
+  </div>
+</div> <!-- end grid -->
+</section>
+
+<!-- CONTACT FORM SECTION ---->
+<section class="center bg-light" id="register">
+<h2> Heading </h2>
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum dapibus felis, sed convallis turpis aliquam nec. </p>
+
+<form class="grid-center" action="https://formspree.io/tina@instituteofcode.com"
+    method="POST">
+    <div class="col-4_sm-12">
+      <input type="text" name="name" placeholder="Your Name">
+      <input type="email" name="_replyto" placeholder="Your Name">
+  </div>
+  <div class="col-4_sm-12">
+    <textarea placeholder="Your Message"></textarea>
+  </div>
+  <div class="col-12">
+    <input type="submit" value="Send" class="button-solid">
+  </div>
+</form>
+</section>
+
+<!-- CARD GRID SERVICES SECTION ----->
+<section class="grid">
+
+  <div class="col-12 center">
+    <h2> Services </h2>
+    <p> You can use these for any kind of card display </p>
+  </div>
+
+  {% for card in page.cards %}
+
+  <!-- start column -->
+  <div class="col-4_sm-12">
+
+    <!-- start card -->
+    <a class="card" href="{{card.link}}">
+      <div class="bg-img" style="background-image:url('{{card.featured_image}}')"></div>
+      <div class="card-text">
+        <h3> {{card.heading}} </h3>
+        <p> {{card.description}}</p>
+      </div>
+    </a> <!-- end card -->
+
+  </div><!-- end column -->
+
+  {% endfor %}
+</section>

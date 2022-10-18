@@ -1,0 +1,23 @@
+twitter_username: yournamehere
+
+collections:
+   products:
+    output: true
+
+# This is the configuration for the pagination plugin.
+paginate: 10
+paginate_path: "/archive/page:num/"
+
+# This is the configuration for the Jekyll-archives plugin.
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'

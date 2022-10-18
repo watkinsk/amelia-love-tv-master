@@ -1,0 +1,30 @@
+---
+layout: default
+title: Blog
+---
+
+<section class="container">
+  <h1 class="center"> Latest on the blog </h1>
+
+  <div class="grid blog-loop">
+
+    {% for post in site.posts limit:10 %}
+      <div class="col-5_sm-12">
+        <div class="bg-img" style="background-image:url('{{post.image_path}}'}"> </div>
+      </div>
+      <div class="col-7_sm-12">
+        <h3> {{post.title}} </h3>
+        <p class="post-meta">
+         {{post.date | date_to_string }} | By {{post.author}}
+        </p>
+        {% for category in post.categories %}
+          <span class="category"> {{category}} </span>
+        {% endfor %}
+
+        <p> {{post.excerpt | truncate:200 }} </p>
+        <a href="{{post.url}}" class="button"> Read More  </a>
+        </div>
+    {% endfor %}
+
+  </div>
+</section>
