@@ -24,7 +24,7 @@ Website Colours: List colour hex codes here for reference
 img {
   max-width: 100%; /* This ensures an image never breaks it's container */
   height: auto;
-  background-color: rgb(220,220,225);
+  background-color: #EFEFF0;
 }
 
 [class*=grid-][class*=-equalHeight]>[class*=col] {
@@ -55,7 +55,7 @@ img {
 /* Typography */
 body {
   font-family: 'Work Sans'; /* Make sure you have added this font in the head of your HTML! */
-  color: rgb(60,60,65);
+  color: #362C28;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -104,7 +104,7 @@ section         { padding: 5%; }
 /* Other universal styles */
 
 .bg-featured{
-  background-color: #1abc9c; /* featured color */
+  background-color: #0892A5; /* featured color */
   color: white;
 }
 .bg-light {
@@ -117,7 +117,7 @@ section         { padding: 5%; }
 
 /* featured icons */
 [class*=fa].featured {
-  color: #1abc9c; /* featured color */
+  color: #0892A5; /* featured color */
   background: none;
 }
 
@@ -141,7 +141,7 @@ nav a {
     color: inherit;
 }
 nav a:hover {
-  color: #1abc9c; /* featured color */
+  color: #0892A5; /* featured color */
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -207,7 +207,7 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 
 /* ----- MODULAR ELEMENTS --------------------------- */
 .banner {
-  background-color: #1abc9c; /* featured-color */
+  background-color: #0892A5; /* featured-color */
   background-size: cover;
   background-position: center;
   min-height:80vh;
@@ -232,10 +232,10 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 }
 
 .bg-img { /* This can be used for any col or div that you want filled with a background image. */
-  background-color: grey; /* this is a fallback incase the image doesn't load */
-  background-image: url('/images/yoga-1.jpg'); /* if you are adding a unique image to every one you can remove this, or use a placeholder here */
-  background-size: cover;
-  background-position: center;
+  background-color: white; /* this is a fallback incase the image doesn't load */
+  background-image: url('/images/amelia-love-headshot-vertical.png'); /* if you are adding a unique image to every one you can remove this, or use a placeholder here */
+  background-size: 100%;
+  background-position: left;
   min-height: 20vh;
 }
 
@@ -261,8 +261,8 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 }
 
 .button {
-  border: 2px solid #1abc9c; /* featured color */
-  color: #1abc9c; /* featured color */
+  border: 2px solid #0892A5; /* featured color */
+  color: #0892A5; /* featured color */
 }
 
 .button:hover {
@@ -271,8 +271,8 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 }
 
 .button-solid {
-  border: 2px solid #1abc9c; /* featured color */
-  background-color: #1abc9c; /* featured color */
+  border: 2px solid #0892A5; /* featured color */
+  background-color: #0892A5; /* featured color */
   color: white;
 }
 
@@ -365,8 +365,8 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 }
 
 a.category:hover {
-  border-color: #1abc9c; /* featured color */
-  color: #1abc9c; /* featured color */
+  border-color: #0892A5; /* featured color */
+  color: #0892A5; /* featured color */
 }
 
 
@@ -387,7 +387,7 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border: 2px solid #1abc9c; /* featured color */
+  border: 2px solid #0892A5; /* featured color */
 }
 
 textarea {
