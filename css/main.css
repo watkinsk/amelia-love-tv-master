@@ -277,24 +277,24 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 }
 
 .button {
-  border: 2px solid #0892A5; /* featured color */
-  color: #0892A5; /* featured color */
+  border: 2px solid #B034D5; /* featured color */
+  color: #B034D5; /* featured color */
 }
 
 .button:hover {
-  border-color: rgb(60,60,65);
-  color: rgb(60,60,65);
+  border-color: #0892A5;
+  color: #0892A5;
 }
 
 .button-solid {
-  border: 2px solid #0892A5; /* featured color */
-  background-color: #0892A5; /* featured color */
+  border: 2px solid #B034D5; /* featured color */
+  background-color: #B034D5; /* featured color */
   color: white;
 }
 
 .button-solid:hover {
-  background-color: rgb(60,60,65);
-  border-color: rgb(60,60,65);
+  background-color: #0892A5;
+  border-color: #0892A5;
 }
 
 .button-inverted {
@@ -304,8 +304,8 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 
 
 .button-inverted:hover {
-  border-color: rgb(90,90,95);
-  color: rgb(90,90,95);
+  border-color: #0892A5;
+  color: #0892A5;
 }
 
 /* VIDEO EMBED CONTAINERS -- RESPONSIVE */
