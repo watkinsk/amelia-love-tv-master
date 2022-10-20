@@ -55,6 +55,7 @@ img {
 body {
   font-family: 'Work Sans'; /* Make sure you have added this font in the head of your HTML! */
   color: #362C28;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
