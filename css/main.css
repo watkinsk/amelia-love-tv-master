@@ -300,6 +300,27 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
   color: rgb(90,90,95);
 }
 
+/* VIDEO EMBED CONTAINERS */
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+Next, edit add some HTML around your embed code. Note: this responsive youtube embed code has been updated in 2020 to be more compliant and follow best practices for embedding Youtube videos for responsive design.
 /* Cards */
 
 .card {
@@ -321,6 +342,7 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 .card .bg-img {
   padding-bottom: 60%; /* this controls the aspect ratio of the images, make it higher for square or portrait images */
 }
+
 
 /* Blog elements */
 .blog-loop .blog-item {
