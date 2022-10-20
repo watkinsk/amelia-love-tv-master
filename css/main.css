@@ -138,7 +138,8 @@ hr {
 nav a {
     text-decoration: none;
     padding: 1em;
-    color: inherit;
+    color: #B034D5;
+    font-weight: bold;
 }
 nav a:hover {
   color: #0892A5; /* featured color */
@@ -146,8 +147,8 @@ nav a:hover {
   transition: all 0.5s;
 }
 .logo {
-  max-height: 2.5rem;
-  max-width: 15rem;
+  max-height: 3rem;
+  max-width: 20rem;
   margin: 0.5em 0;
 }
 header {
