@@ -206,6 +206,14 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 
 
 /* ----- MODULAR ELEMENTS --------------------------- */
+/* ------------ BACKGROUND IMAGES --------------- */
+
+/* home page intro banner */
+#intro-banner {
+  background-color: #F37B53;
+
+}
+
 .banner {
   background-color: #0892A5; /* featured-color */
   background-size: cover;
@@ -438,14 +446,6 @@ form [class*=col-] {
 .email-signup input[type="submit"] {
   padding: 0.8em;
   border-radius: 0;
-}
-
-/* ------------ BACKGROUND IMAGES --------------- */
-
-/* home page intro banner */
-#intro-banner {
-  background-color: #F37B53;
-
 }
 
 /*------- Media Queries ------------------------*/
