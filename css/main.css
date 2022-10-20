@@ -96,7 +96,7 @@ li      { margin-bottom: 0.5rem; }
 
 header, footer  { padding: 2% 5%; }
 
-section         { padding: 5%; }
+section         { padding: 3%; }
 
 .col,
 [class*=col-]   { padding: 2%; }
