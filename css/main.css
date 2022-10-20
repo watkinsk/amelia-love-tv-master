@@ -131,6 +131,7 @@ hr {
   border: none; /* this removes the weirdly styled border */
   border-top: 1px solid rgb(245,245,245);
   margin: 1rem 0;
+  width: 25%;
 }
 
 
@@ -138,22 +139,25 @@ hr {
 nav a {
     text-decoration: none;
     padding: 1em;
-    color: #B034D5;
-    font-weight: bold;
+    color: #362C28;
 }
+
 nav a:hover {
   color: #0892A5; /* featured color */
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 .logo {
   max-height: 3rem;
   max-width: 20rem;
   margin: 0.5em 0;
 }
+
 header {
   border-bottom: 1px solid rgb(245,245,245);
 }
+
 header [class*=col] {
   padding: 0;
 }
