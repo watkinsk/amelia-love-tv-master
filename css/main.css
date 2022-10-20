@@ -248,6 +248,12 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
   padding-bottom: 110%;
 }
 
+.amelia-headshot {
+  background-color: white; /* this is a fallback incase the image doesn't load */
+  size: 100%;
+  position: left;
+  min-height: 20vh;
+}
 /* Buttons */
 
 .button,
