@@ -249,9 +249,9 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 }
 
 .amelia-headshot {
-  background-color: white; /* this is a fallback incase the image doesn't load */
-  size: 100%;
-  position: left;
+  display: block;
+  width: 100%;
+  height: auto;
   min-height: 20vh;
 }
 /* Buttons */
