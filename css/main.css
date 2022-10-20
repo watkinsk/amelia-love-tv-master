@@ -24,7 +24,6 @@ Website Colours: List colour hex codes here for reference
 img {
   max-width: 100%; /* This ensures an image never breaks it's container */
   height: auto;
-  background-color: #EFEFF0;
 }
 
 [class*=grid-][class*=-equalHeight]>[class*=col] {
@@ -211,7 +210,6 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
   background-color: #0892A5; /* featured-color */
   background-size: cover;
   background-position: center;
-  min-height:80vh;
   position: relative;
 }
 
@@ -253,7 +251,7 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
   width: 100%;
   height: 100%;
   object-fit: cover;
-  padding: 0;
+  padding: 2%;
   min-height: 20vh;
   overflow-x: hidden;
 }
