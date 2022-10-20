@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-bottom: 1rem;
 }
-h1-banner {font-size: 3.0rem; line-height: 1.2; font-style: 600; color: #EFEFF0;}
+h1-banner {font-size: 3.0rem; line-height: 1.2; font-weight: bold; color: #EFEFF0;}
 h1 { font-size: 3.0rem; line-height: 1.2; }
 h2 { font-size: 2.4rem; line-height: 1.25; }
 h3 { font-size: 2.0rem; line-height: 1.3; }
