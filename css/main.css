@@ -253,6 +253,7 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
   width: 100%;
   height: auto;
   min-height: 20vh;
+  overflow-x: hidden;
 }
 /* Buttons */
 
@@ -409,7 +410,6 @@ form [class*=col-] {
   padding: 5px;
 }
 
-
 .email-signup input {
     width: 30%;
     display: inline-block;
@@ -425,7 +425,7 @@ form [class*=col-] {
 /* home page intro banner */
 #intro-banner {
   background-color: #F37B53;
-  /* url('/images/amelia-love-headshot-vertical.png'); /* This is just an example */ */
+
 }
 
 /*------- Media Queries ------------------------*/
