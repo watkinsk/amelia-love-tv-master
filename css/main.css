@@ -248,8 +248,8 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 
 .amelia-headshot {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 50vh;
+  height: 50vh;
   object-fit: cover;
   padding: 2%;
   min-height: 20vh;
