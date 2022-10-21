@@ -150,8 +150,8 @@ nav a:hover {
 }
 
 .logo {
-  max-height: 3rem;
-  max-width: 20rem;
+  max-height: 2.5rem;
+  max-width: 15rem;
   margin: 0.5em 0;
 }
 
@@ -216,7 +216,7 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 
 /* home page intro banner */
 #intro-banner {
-  background-color: #F37B53;
+  background-color: #0892A5;
 
 }
 
