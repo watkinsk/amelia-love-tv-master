@@ -62,11 +62,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.1rem;
 }
 
-span{
+span h1-banner {
   font-family: "Pinyon+Script";
-  color: #362C28;
+  color: #EFEFF0;
   overflow-x: hidden;
 }
+
 p {
   margin-bottom: 1rem;
 }
