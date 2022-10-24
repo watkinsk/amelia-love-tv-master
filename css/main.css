@@ -53,7 +53,7 @@ img {
 
 /* Typography */
 body {
-  font-family: 'Work Sans'; /* Make sure you have added this font in the head of your HTML! */
+  font-family: 'Poppins'; /* Make sure you have added this font in the head of your HTML! */
   color: #362C28;
   overflow-x: hidden;
 }
