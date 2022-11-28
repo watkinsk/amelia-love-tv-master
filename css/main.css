@@ -215,6 +215,19 @@ footer nav [class*=fa], /* this special selector is targetting all classes with 
 /* ----- MODULAR ELEMENTS --------------------------- */
 /* ------------ BACKGROUND IMAGES --------------- */
 
+/* BANNERS */
+
+/* .banner,.bg-banner
+.banner-with-header {
+  background-image: url("/images/header-books-janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+  /* background-color: #FA7D54; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 72vh;
+  overflow-x: hidden;
+} */
+
 /* home page intro banner */
 #intro-banner {
   background-color: #0892A5;
